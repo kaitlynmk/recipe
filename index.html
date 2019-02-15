@@ -13,7 +13,6 @@
 <title>Fluffy Pancake Recipe</title>
 </head>
 <body>
-
   <!-- HTML Element Syntax
   <tag attribute="value">Content</tag> -->
 
@@ -24,6 +23,7 @@
 
     <h1>Fluffy Pancakes</h1>
       <p class="byline">By <a rel="author" href="https://www.tasteofhome.com/recipes/fluffy-pancakes/"> Taste of Home.</a></p>
+  </header>
       <p>Test Kitchen approved, with 15 minutes and a non-stick pan you've now got the fluffiest, most delicious pancakes <em>man can create.</em></p>
   <figure>
           <img alt="Fluffy Pancakes" src="img/fluff-pancakes.jpg" width="240">
@@ -33,14 +33,14 @@
             </small>
           </figcaption>
   </figure>
-  </header>
   <dl>
       <dt><i>Total Time</i><dt>
       <dd><time datetime="15m">15 minutes</time></dd>
       <dt><i>Cooks</i><dt>
       <dd>8 pancakes</dd>
   </dl>
-<section id="ingredients">
+
+<section class="ingredients">
   <h2><u>Ingredients</u></h2>
     <ul>
         <li>1 cup all-purpose flour</li>
@@ -53,7 +53,7 @@
         <li>1 teaspoon vanilla extract</li>
     </ul>
 </section>
-<section>
+<section class="directions">
   <h2><u>Directions</u></h2>
     <ol>
         <li>In a small bowl mix to combine the dry ingredients.</li>
@@ -66,14 +66,18 @@
 
 </main>
 
-<div class="back-to-top">
-  <a href="#back-to-top">Back to top</a>
-</div>
+<section class="fine-print">
 
-<footer id="contentinfo">
-  <p class="small-print">
-    <small>See<a href="https://github.com/kaitlynmk">Github</a></small>
-</footer>
+    <div class="back-to-top">
+      <a href="#back-to-top">Back to top</a>
+    </div>
+
+    <footer id="contentinfo">
+      <p class="small-print">
+        <small>See<a href="https://github.com/kaitlynmk">Github</a></small>
+    </footer>
+
+</section>
 
 </body>
 </html>
