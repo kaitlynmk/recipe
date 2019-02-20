@@ -74,14 +74,6 @@ figcaption {
   text-align: right;
 }
 
-header p{
-  color:#ffc300;
-}
-
-figure a{
-  color:#ffc300;
-}
-
 p {
   margin-top: 1em;
 }
@@ -114,10 +106,12 @@ main {
   border-radius: 2em;
 }
 
+
 div {
   font-size:.8em;
   line-height:1.5;
 }
+
 
 .ingredients ul{
   line-height:1.5;
@@ -135,7 +129,18 @@ div {
   color:#ff5733;
 }
 
-.fine-print{
+
+.byline,
+a {
+  color:#ff5733;
+}
+
+footer{
+  color:#ff5733;
+}
+
+
+header p {
   color:#ffc300;
 }
 
